@@ -1,20 +1,6 @@
-//╭╮╱╱╭╮╭╮╱╱╭╮
-//┃╰╮╭╯┃┃┃╱╱┃┃
-//╰╮┃┃╭┻╯┣╮╭┫╰━┳╮╭┳━━╮
-//╱┃╰╯┃╭╮┃┃┃┃╭╮┃┃┃┃━━┫
-//╱╰╮╭┫╰╯┃╰╯┃╰╯┃╰╯┣━━┃
-//╱╱╰╯╰━━┻━━┻━━┻━━┻━━╯
-//╭━━━┳╮╱╱╱╱╱╱╱╭╮
-//┃╭━╮┃┃╱╱╱╱╱╱╱┃┃
-//┃┃╱╰┫╰━┳━━┳━╮╭━╮╭━━┫┃
-//┃┃╱╭┫╭╮┃╭╮┃╭╮┫╭╮┫┃━┫┃
-//┃╰━╯┃┃┃┃╭╮┃┃┃┃┃┃┃┃━┫╰╮
-//╰━━━┻╯╰┻╯╰┻╯╰┻╯╰┻━━┻━╯
-//━╯
-//Vdub FX SniperVX2 Color v2 / Vdub Rejection Spike v3 Full intergration -
-//  ©Vdubus http://www.vdubus.co.uk/
+Vdub FX SniperVX2 Color v2 / Vdub Rejection Spike v3 Full intergration -  ©Vdubus http://www.vdubus.co.uk/
 study("Vdub FX SniperVX2 Color v2", overlay=true, shorttitle="Vdub_FX_SniperVX2_Color")
-//===================Candle body resistance Channel====================//
+===================Candle body resistance Channel====================//
 len = 34
 src = input(close, title="Candle body resistance Channel")
 out = sma(src, len)
